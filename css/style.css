@@ -1,7 +1,8 @@
 header {
 	height: 150px;
 	width: 100%;
-	background-color: #141414;
+	background-color: #040404;
+    opacity: 0.87;
 }
 
 #header_logo {
@@ -24,11 +25,33 @@ header {
 }
 
 #header_div h1{
-	display: inline;
+	
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    
 }
 
 #header_div #social_networks li{
 	list-style:none;
     display:inline;
-    background:red;
+    background:rgba(11, 62, 81, 0.974);
+    margin-left: 8%;
+    font-size: large;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+#social_networks{
+    margin-left: 6%;
+}
+
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+body{
+    background: linear-gradient(110deg, #2a2a77 60%, #100547 60%);
 }
