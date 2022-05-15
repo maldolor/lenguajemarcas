@@ -36,8 +36,7 @@ header {
 #header_div #social_networks li{
 	list-style:none;
     display:inline;
-    background:rgba(11, 62, 81, 0.974);
-    margin-left: 8%;
+    margin-left: 20%;
     font-size: large;
     font-family: 'Permanent Marker', cursive;
     
@@ -46,12 +45,6 @@ header {
     margin-left: 6%;
 }
 
-li:hover {
-    
-    color: rgb(90, 12, 247);
-    cursor: pointer;
-    
-}
 
 body{
     background: linear-gradient(110deg, #2a2a77 60%, #100547 60%);
@@ -71,3 +64,32 @@ main{
 @media screen and (max-width: 700px) {
     #social_networks{ display: none; }
   }
+
+.bloque{
+    text-align: center;
+}
+
+
+.contenido p{
+    margin-top: 3%;
+    color: #fff;
+   display: flex;
+   margin-left: 40%;
+   margin-right: 40%;
+}
+
+.imagen{
+    margin-top: 3%;
+}
+.buscar{
+   size: 2000px;
+}
+
+.tabla{
+    height: 30px;
+    width: 300px;
+}
+.titulo{
+    font-size: 30px;
+    color: aliceblue;
+}
